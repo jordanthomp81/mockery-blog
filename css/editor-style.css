@@ -1,0 +1,360 @@
+*,
+*:before,
+*:after {
+  /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+  -moz-box-sizing: inherit;
+       box-sizing: inherit;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font-family: 'Open Sans', sans-serif;
+  color: #888888;
+  font-size: 14px;
+  line-height: 1.7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', 'Arial Black', sans-serif;
+  clear: both;
+  text-transform: uppercase;
+  margin: 0 0 40px;
+}
+h1 {
+  font-size: 1.7142em;
+}
+h2 {
+  font-size: 1.2857em;
+}
+h3 {
+  font-size: 1em;
+}
+h4 {
+  font-size: .9285em;
+}
+h5 {
+  font-size: .8571em;
+}
+h6 {
+  font-size: .7857em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+  font-weight: 700;
+}
+strong {
+  color: #555;
+}
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+p,
+blockquote,
+address,
+pre {
+  margin: 0 0 40px;
+}
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: .9285em;
+  line-height: 2em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 40px;
+}
+code,
+kbd,
+tt,
+var {
+  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-size: .9285em;
+  background-color: #eee;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+abbr,
+acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+mark,
+ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+small {
+  font-size: 90%;
+}
+big {
+  font-size: 125%;
+}
+/* Elements
+------------------------------------*/
+ul,
+ol,
+dl,
+table {
+  margin-bottom: 40px;
+}
+blockquote {
+  padding: 60px 0 60px 60px;
+  border-top: 2px solid #f1f1f1;
+  border-bottom: 2px solid #f1f1f1;
+  font-size: 1.3em;
+  line-height: 1.8em;
+  color: #bbbbbb;
+  position: relative;
+}
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+cite {
+  margin-top: 20px;
+  display: block;
+  font-size: .9285em;
+  color: #888888;
+}
+blockquote:before {
+  font-family: 'FontAwesome';
+  content: "\f10d";
+  font-size: 24px;
+  color: #38a16a;
+}
+blockquote,
+q {
+  quotes: "" "";
+}
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 20px;
+}
+ol,
+ul {
+  padding-left: 20px;
+}
+ul {
+  list-style: disc;
+}
+ol {
+  list-style: decimal;
+}
+li > ul,
+li > ol {
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+li {
+  position: relative;
+  margin-bottom: 20px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+/* fix space between children lists and parent */
+li ul > li:first-child,
+li ol > li:first-child {
+  margin-top: 20px;
+}
+dt {
+  font-weight: bold;
+  margin: 0 0 20px;
+  color: #000;
+}
+dd {
+  margin: 0 0 40px 20px;
+}
+figure {
+  margin: 0 0 40px 0;
+}
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
+  vertical-align: bottom;
+}
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+  max-width: 100%;
+}
+table {
+  width: 100%;
+}
+th,
+td {
+  padding: 12px 17px;
+}
+th {
+  text-align: left;
+  color: #38a16a;
+}
+tr {
+  border-bottom: 1px solid #f1f1f1;
+}
+tr:last-child {
+  border: none;
+}
+@media screen and (max-width: 767px) {
+  blockquote {
+    padding: 60px 0 60px;
+    text-align: center;
+  }
+  blockquote:before {
+    position: relative;
+    margin-bottom: 40px;
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  blockquote:before {
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+}
+/* Links
+------------------------------------*/
+a {
+  color: #38a16a;
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #4bc183;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+/* WP
+------------------------------------*/
+.html5-captions .wp-caption.alignleft,
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.html5-captions .wp-caption.alignright,
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0;
+}
+.wp-caption,
+.html5-captions .wp-caption {
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+.wp-caption img[class*="wp-image-"] {
+  display: block;
+  margin: 0 auto;
+}
+.wp-caption-text {
+  text-align: center;
+}
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+  padding: 5px 0;
+  font-size: .9em;
+  background-color: #fbfbfb;
+}
+.wp-caption-dt {
+  margin-bottom: 0;
+}
+.gallery {
+  margin-bottom: 40px;
+}
+.gallery-item {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.gallery-columns-2 .gallery-item {
+  max-width: 50%;
+}
+.gallery-columns-3 .gallery-item {
+  max-width: 33.33%;
+}
+.gallery-columns-4 .gallery-item {
+  max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+  max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+  max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+  max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+  max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+  max-width: 11.11%;
+}
+.gallery-caption {
+  display: block;
+  font-size: .875em;
+  font-style: italic;
+  padding: 5px;
+}
+.gallery-icon a {
+  line-height: 0;
+}
+.gallery-icon a:after {
+  height: 0;
+}
+.gallery-icon img {
+  margin-bottom: 0;
+}
+.gallery-item .gallery-icon {
+  padding: 1px;
+}

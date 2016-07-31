@@ -1,0 +1,451 @@
+# Copyright (C) 2015 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kourse\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2015-03-18 16:46+0800\n"
+"PO-Revision-Date: 2015-03-18 16:46+0800\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _e;_x;_n;__;_nx();_ex()\n"
+"X-Poedit-kihonpath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:25
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: comments.php:46
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:62
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:26 content-single.php:28
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:35 inc/template-tags.php:130 inc/template-tags.php:292
+msgid "Edit"
+msgstr ""
+
+#: content.php:29
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:63 header.php:48
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:102
+msgid "Sidebar"
+msgstr ""
+
+#: header.php:22
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:49
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer-colors.php:35
+msgid "Theme Color"
+msgstr ""
+
+#: inc/customizer-colors.php:51
+msgid "Theme Color When Hovered"
+msgstr ""
+
+#: inc/customizer-colors.php:68
+msgid "Header Background"
+msgstr ""
+
+#: inc/customizer-colors.php:85
+msgid "Footer Background"
+msgstr ""
+
+#: inc/customizer-colors.php:102
+msgid "Menu Links"
+msgstr ""
+
+#: inc/customizer-colors.php:118
+msgid "Menu Links when hovered"
+msgstr ""
+
+#: inc/customizer-colors.php:135
+msgid "Footer Info Text (Copyright text)"
+msgstr ""
+
+#: inc/customizer-colors.php:152
+msgid "Icon Container"
+msgstr ""
+
+#: inc/customizer-footer.php:24
+msgid "Footer Info"
+msgstr ""
+
+#: inc/customizer-footer.php:25
+msgid "Change the footer info (copyright text)."
+msgstr ""
+
+#: inc/customizer-footer.php:41
+msgid "Site Footer Info."
+msgstr ""
+
+#: inc/customizer-footer.php:42
+msgid "Usually the copyirght text."
+msgstr ""
+
+#: inc/customizer-header.php:46
+msgid "Site Header Height (px)"
+msgstr ""
+
+#: inc/customizer-header.php:64
+msgid "Fixed Header?"
+msgstr ""
+
+#: inc/customizer-header.php:65
+msgid "Fix header to top when scrolled down."
+msgstr ""
+
+#: inc/customizer-header.php:69 inc/customizer-menu-cta.php:45
+#: inc/customizer-sanitize.php:98
+msgid "On"
+msgstr ""
+
+#: inc/customizer-header.php:70 inc/customizer-menu-cta.php:46
+#: inc/customizer-sanitize.php:99
+msgid "Off"
+msgstr ""
+
+#: inc/customizer-menu-cta.php:24
+msgid "Menu CTA"
+msgstr ""
+
+#: inc/customizer-menu-cta.php:25
+msgid "Menu call to action link."
+msgstr ""
+
+#: inc/customizer-menu-cta.php:41
+msgid "Display CTA?"
+msgstr ""
+
+#: inc/customizer-menu-cta.php:55 inc/customizer-menu-cta.php:200
+msgid "Get Started"
+msgstr ""
+
+#: inc/customizer-menu-cta.php:62
+msgid "CTA text."
+msgstr ""
+
+#: inc/customizer-menu-cta.php:79
+msgid "CTA Text Color"
+msgstr ""
+
+#: inc/customizer-menu-cta.php:96
+msgid "CTA URL"
+msgstr ""
+
+#: inc/customizer-menu-cta.php:97
+msgid ""
+"Please follow the same format as the menu links if you want to scroll to a "
+"section after clicking this."
+msgstr ""
+
+#: inc/customizer-menu-cta.php:114
+msgid "CTA Text Font Size (px)"
+msgstr ""
+
+#: inc/customizer-menu-cta.php:131
+msgid "CTA Background Color"
+msgstr ""
+
+#: inc/customizer-menu-cta.php:132
+msgid "Default state color (unhovered)."
+msgstr ""
+
+#: inc/customizer-menu-cta.php:149
+msgid "CTA Background Color (on hover)"
+msgstr ""
+
+#: inc/customizer-menu-cta.php:150
+msgid ""
+"Default set to follow theme color setting. This setting will overwrite that "
+"color."
+msgstr ""
+
+#: inc/customizer-social.php:24
+msgid "Footer Social"
+msgstr ""
+
+#: inc/customizer-social.php:25
+msgid "You can add which social media you want to the site's footer."
+msgstr ""
+
+#: inc/customizer-social.php:44
+msgid "Add Social Accounts."
+msgstr ""
+
+#: inc/customizer-social.php:46
+#, php-format
+msgid ""
+"Add account icons by entering the class name separated by a comma (,) in the "
+"list found %shere%s. Refresh the page to see options."
+msgstr ""
+
+#: inc/customizer-social.php:66
+msgid "Open links in new window?"
+msgstr ""
+
+#: inc/customizer-social.php:94
+msgid "Enter full URL to social account"
+msgstr ""
+
+#: inc/extras.php:57
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/extras.php:86
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-tags.php:27
+msgid "Older posts"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:86
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:91
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "with"
+msgstr ""
+
+#: inc/template-tags.php:101
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:101
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:101
+msgid "% Comments"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:116 inc/template-tags.php:123
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:118
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:125
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:147
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: inc/template-tags.php:149
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:151
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:153
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:153
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:155
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:155
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:157
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:157
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:160
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:162
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:164
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:166
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:168
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:170
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:172
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:174
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:176
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:179
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:183
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:185
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:290
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:314
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:326
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:365
+msgid "Name"
+msgstr ""
+
+#: inc/template-tags.php:366
+msgid "Email"
+msgstr ""
+
+#: inc/template-tags.php:367
+msgid "Website"
+msgstr ""
+
+#: inc/template-tags.php:368
+msgid "Comment"
+msgstr ""
+
+#: inc/template-tags.php:400
+msgid "Post Comment"
+msgstr ""
+
+#: inc/template-tags.php:401
+msgid "Leave a Comment"
+msgstr ""
+
+#: inc/template-tags.php:402
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/template-tags.php:421
+msgid "Copyright 2015"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
